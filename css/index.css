@@ -1,0 +1,144 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+html{
+	background-color: #e4cc9a;
+}
+
+.medsos {
+	border-radius: 0px 0px 0px 10px;
+	padding:5px 0;
+	background-color: #203854;
+}
+.medsos ul{
+	margin-left: 75px;	
+}
+.medsos ul li {
+	display: inline-block;
+	font-weight: bold;
+	color: #e4cc9a;
+	margin-right: 20px;
+}
+.nav {
+	
+	margin:0 auto;
+}
+.nav:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+header h1 {
+	padding-top: 20px;
+	padding-left: 50px;
+	float: left;
+	color: #203854;
+}
+header ul {
+	z-index:5; 
+	background:#203854;
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+.active {
+	color: #e4cc9a;
+	font-weight: bold;
+}
+.nactive{
+	font-weight: bold;
+	color: #203854;
+}
+header ul li a {
+	padding:25px 60px;
+	display: inline-block;
+	font-weight: bold;
+	color: rgb(228,204,154,.6);
+}
+header ul li a:hover {
+	color: #e4cc9a;
+	font-weight: bold;
+	
+}
+.menu ul li .dropdown {
+	display:none;
+
+}
+.menu ul li:hover .dropdown{
+	display:block;
+	position: absolute;
+	border-radius: 15px;
+	
+}
+.menu ul li:hover .dropdown li{
+	display:block;
+	
+}
+.menu ul li:hover .dropdown li a:hover{
+	color: #e4cc9a;
+	
+	font-weight: bold;
+}
+.banner {
+	z-index: -5;
+	height: 60vh;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:10px solid #203854;
+	border-top:none;
+	border-radius: 0px 0px 10px 10px;
+}
+.banner:after {
+	content:'';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgb(17,17,17,.6);
+}
+.banner h2 {
+	color: #e4cc9a;
+	z-index: 1;
+	padding: 20px 25px;
+	border-radius: 10px;
+	border:3px solid #e4cc9a;
+}
+section {
+	padding:50px 0;
+}
+section h3 {
+	text-align: center;
+	padding:20px 0;
+	color: #203854;
+	margin-bottom: 25px;
+}
+.about{
+	margin: 0 auto;
+	width:60%;
+	justify-content: center;
+	align-items: center;
+}
+.about p{
+	text-align: center;
+	color: #203854;
+}
+
+header ul .tab2{
+	background:#e4cc9a;
+	color: #e4cc9a;
+	padding: 14.5px;	
+	border-radius: 0px 25px 25px 0px;
+}
