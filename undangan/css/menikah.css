@@ -39,7 +39,7 @@ html {
 
 .hero {
   background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background: linear-gradient(rgb(32, 56, 84,.65), rgb(32, 56, 84)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -131,12 +131,13 @@ html {
 }
 
 .main-content .section-dark {
-  background-color: #F4E2E2;
+  background-color: rgb(32, 56, 84);
   padding: 80px 40px;
+  color:#fff; 
 }
 
 .main-content .section-darker {
-  background-color: #EDD2D1;
+  background-color: rgb(27, 47, 70);
   padding: 80px 40px;
 }
 
@@ -159,7 +160,7 @@ html {
 .main-content .section-dark.resume button {
   border: 2px solid #996E6D;
   background: white;
-  color: #996E6D;
+  color: #fff;
   height: 50px;
   width: 250px;
   font-size: 1rem;
@@ -290,7 +291,7 @@ html {
 .main-content .section-title {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
-  color: #996E6D;
+  color: #fff;
   text-transform: uppercase;
   font-size: 1.5rem;
   letter-spacing: 0px;
@@ -350,7 +351,7 @@ vertical-align: middle;
   line-height: 25px;
   text-align: center;
   vertical-align: middle;
-  background: #c28285;
+  background: rgb(27, 47, 70);
   color: whitesmoke;    
 }
 
@@ -488,8 +489,8 @@ body.preloader-site {
 
 
 .btn-cta:hover {
-  color:white;
-  background-color: #bf7877;
+  color:rgb(27, 47, 70);
+  background-color: #fff;
   font-size: 1.2rem;
   border-radius: 10px;
   border: 2px solid #bf7877;
@@ -500,10 +501,10 @@ body.preloader-site {
 }
 
 .btn-cta {
-  background-color: #996E6D;
+  background-color: #fff;
   width:  210px;
   height: 65px;
-  color: white;
+  color: rgb(27, 47, 70);
   font-size: 1.2rem;
   border: 2px solid #996E6D;
   border-radius: 10px;
@@ -565,7 +566,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-kang-emil.jpg");
+  background-image: linear-gradient(rgb(32, 56, 84,.65), rgb(32, 56, 84)), url("../image/sherly-daeng-kang-emil.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -574,7 +575,7 @@ body.preloader-site {
 
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-cashbac.jpg");
+  background-image: linear-gradient(rgb(32, 56, 84,.65), rgb(32, 56, 84)), url("../image/sherly-daeng-cashbac.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -582,7 +583,7 @@ body.preloader-site {
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-selfie.jpg");
+  background-image: linear-gradient(rgb(32, 56, 84,.65), rgb(32, 56, 84)), url("../image/sherly-daeng-selfie.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -590,7 +591,7 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-lamaran.jpg");
+  background-image: linear-gradient(rgb(32, 56, 84,.65), rgb(32, 56, 84)), url("../image/sherly-daeng-lamaran.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -598,7 +599,7 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-red-car.jpg");
+  background-image: linear-gradient(rgb(32, 56, 84,.65), rgb(32, 56, 84)), url("../image/sherly-daeng-red-car.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -607,7 +608,7 @@ body.preloader-site {
 
 
 .foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-engagement-ami.jpg");
+  background-image: linear-gradient(rgb(32, 56, 84,.65), rgb(32, 56, 84)), url("../image/sherly-daeng-engagement-ami.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
