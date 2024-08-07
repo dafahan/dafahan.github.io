@@ -27,7 +27,7 @@
     function checkPin() {
       const pin = document.getElementById('pin').value;
       const errorMessage = document.getElementById('errorMessage');
-      if (pin === '831224') {
+      if (pin.trim() === '831224') {
         window.location.href = 'https://padlet.com/dafahanid/tya';
       } else {
         errorMessage.classList.remove('hidden');
