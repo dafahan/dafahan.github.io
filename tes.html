@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello my historia</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-sm">
+    <form id="pinForm">
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="pin">
+          Enter the number that is written on the postcard
+        </label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="pin" type="number" placeholder="">
+      </div>
+      <div class="flex items-center justify-between">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" onclick="checkPin()">
+          Submit
+        </button>
+      </div>
+      <p id="errorMessage" class="text-red-500 text-sm mt-2 hidden">Wrong PIN. Please try again.</p>
+    </form>
+  </div>
+  <script>
+    function checkPin() {
+      const pin = document.getElementById('pin').value;
+      const errorMessage = document.getElementById('errorMessage');
+      if (pin === '831224') {
+        window.location.href = 'https://padlet.com/dafahanid/tya';
+      } else {
+        errorMessage.classList.remove('hidden');
+      }
+    }
+  </script>
+</body>
+</html>
