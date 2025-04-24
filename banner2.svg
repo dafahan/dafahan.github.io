@@ -1,0 +1,15 @@
+<svg width="1000" height="300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&amp;display=swap');
+    .title {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 300;
+      fill: white;
+      font-size: 60px;
+    }
+  </style>
+  <rect width="100%" height="100%" fill="black"></rect>
+  <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" class="title">
+    &lt;dafahan/&gt;
+  </text>
+</svg>
