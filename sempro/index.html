@@ -115,7 +115,17 @@
                     </div>
                 </div>
 
-                <div class="grid md:grid-cols-2 gap-px bg-slate-100 border border-slate-200 rounded-lg overflow-hidden mb-12">
+                <div class="grid md:grid-cols-3 gap-px bg-slate-100 border border-slate-200 rounded-lg overflow-hidden mb-12">
+                    <div class="bg-white p-8 flex items-start space-x-4">
+                        <div class="bg-slate-50 p-3 rounded-full text-slate-600">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="text-sm uppercase tracking-wide text-slate-500 font-semibold mb-1">Tanggal</h4>
+                            <p class="text-xl font-semibold text-slate-900">Rabu, 4 Feb 2026</p>
+                            <p class="text-sm text-slate-500 mt-1">Besok</p>
+                        </div>
+                    </div>
                     <div class="bg-white p-8 flex items-start space-x-4">
                         <div class="bg-slate-50 p-3 rounded-full text-slate-600">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -194,9 +204,8 @@
         const eventDescription = 'Seminar Proposal yang dipaparkan oleh:\n- Enggal Bima Sakti (2217051032)\n- Dafa Farhan Haqiqi (2267051001)\n- Hafidz Taufiqurohman (2217051093)\n- Gilbert Sibuea (2217051118)\n- Muhammad Heru (2217051071)\n\nDosen Penguji: Pak Igit, Pak Rahman, Pak Aris';
         const eventLocation = 'Gedung GIK L1 B, Universitas Lampung';
 
-        // Set event date - modify this to actual event date
-        const eventDate = new Date();
-        eventDate.setHours(13, 0, 0, 0);
+        // Set event date: Rabu, 4 Februari 2026, 13:00 WIB
+        const eventDate = new Date('2026-02-04T13:00:00');
         const endDate = new Date(eventDate.getTime() + 3 * 60 * 60 * 1000); // 3 hours duration
 
         // Add to Google Calendar
